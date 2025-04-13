@@ -18,7 +18,8 @@ export default async function handler(req, res) {
   }
 
   try {
-    const filePath = path.join(process.cwd(), 'api', 'cropData.json');
+  const filePath = path.resolve(process.cwd(), 'cropData.json');
+
     const data = fs.readFileSync(filePath, 'utf8');
     const crops = JSON.parse(data);
 
