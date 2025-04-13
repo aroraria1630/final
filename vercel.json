@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/advice.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/advice", "dest": "api/advice.js" }
+  ]
+}
