@@ -1,0 +1,10 @@
+{
+  "wheat": { "moisture_min": 400, "moisture_max": 600 },
+  "rice": { "moisture_min": 600, "moisture_max": 800 },
+  "corn": { "moisture_min": 500, "moisture_max": 700 },
+  "tomato": { "moisture_min": 550, "moisture_max": 750 },
+  "carrot": { "moisture_min": 550, "moisture_max": 750 },
+  "spinach": { "moisture_min": 600, "moisture_max": 750 },
+  "onion": { "moisture_min": 500, "moisture_max": 650 },
+  "cabbage": { "moisture_min": 600, "moisture_max": 800 }
+}
